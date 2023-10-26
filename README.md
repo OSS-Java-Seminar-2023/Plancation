@@ -2,11 +2,11 @@
 Calendar planner for vacation days
 
 ## List of contents
-- Introduction
-- Features
-- Database model
-- Technologies
-- Developers
+- [Introduction](https://github.com/OSS-Java-Seminar-2023/Plancation#introduction)
+- [Features](https://github.com/OSS-Java-Seminar-2023/Plancation#features)
+- [Database model](https://github.com/OSS-Java-Seminar-2023/Plancation#database-model)
+- [Technologies](https://github.com/OSS-Java-Seminar-2023/Plancation#technologies)
+- [Developers](https://github.com/OSS-Java-Seminar-2023/Plancation#developers)
 
   ## Introduction
   Plancation is organisational tool that simplifies vacation request process. Emplyees can select desired dates with a help of calendar which supervisors     need to approve. The process is further simplified by providing supervisors with different tools for handling vacation requests, such as overview of        all the employees currently on vacation, overview of left vacation days, employees position in the company ect.
