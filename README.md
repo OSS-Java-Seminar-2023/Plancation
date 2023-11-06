@@ -31,7 +31,8 @@ Calendar planner for vacation days
     - Overview of vacation days information (remaining vacation days, used vacation days, last year's unused vacation days)
 
   ## Database model
-![plancation_db_schema](https://github.com/OSS-Java-Seminar-2023/Plancation/assets/92264175/f7fd4eec-12f2-4411-b2c8-3e2e4c90d6bc)
+
+![plancation_db_schema](https://github.com/OSS-Java-Seminar-2023/Plancation/assets/92264175/08b3eca4-e724-41f2-b141-22f95a0c2dd9)
 
 
 
