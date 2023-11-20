@@ -19,9 +19,9 @@ public class Employee {
     @JoinColumn(name = "department_id")
     private Department department;
 
-/*    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "employee")
-    @JoinColumn(name = "request_id")
-    private Set<Request> requests = new HashSet<>();*/
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "approver")
+    private Set<Request> requests = new HashSet<>();
 
     @ManyToOne
     @JoinColumn(name = "vacation_day_id")
