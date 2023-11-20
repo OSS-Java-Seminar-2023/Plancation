@@ -32,7 +32,8 @@ Calendar planner for vacation days
 
   ## Database model
 
-![plancation_db_schema](https://github.com/OSS-Java-Seminar-2023/Plancation/assets/92264175/08b3eca4-e724-41f2-b141-22f95a0c2dd9)
+![plancation_db_shema](https://github.com/OSS-Java-Seminar-2023/Plancation/assets/92264175/1ed35013-de06-485a-98b6-a94776de7c1a)
+
 
 
 
