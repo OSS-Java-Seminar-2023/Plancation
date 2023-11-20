@@ -17,8 +17,10 @@ public class Request {
     @JoinColumn(name = "file_id")
     private Set<File> files = new HashSet<>();
     private LocalDateTime timeCreated;
-    @OneToOne
+    @ManyToOne
+    @JoinColumn(name = "requester_id", referencedColumnName = "employee_id")
     private Employee requester;
-    @OneToOne
+    @ManyToOne
+    @JoinColumn(name = "approver_id", referencedColumnName = "employee_id")
     private Employee approver;
 }

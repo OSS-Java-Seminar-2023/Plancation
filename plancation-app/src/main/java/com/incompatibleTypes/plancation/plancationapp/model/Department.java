@@ -13,6 +13,6 @@ public class Department {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "department")
+    @OneToMany(mappedBy = "department")
     private Set<Employee> employees = new HashSet<>();
 }
