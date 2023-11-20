@@ -14,21 +14,22 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String username;
-    private Role role;
     private String mail;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "department_id")
     private Department department;
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "employee")
+
+/*    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "employee")
     @JoinColumn(name = "request_id")
-    private Set<Request> requests = new HashSet<>();
+    private Set<Request> requests = new HashSet<>();*/
+
     @ManyToOne
     @JoinColumn(name = "vacation_day_id")
     private VacationDay minimalVacationDay;
     //private int total_vacation_days; // query koji na osnovu osnovnog i bonusa daje ovo...nece bit field?
     @ManyToMany
     @JoinTable(
-            name = "employee_bonusVacDays",
+            name = "minimalVacationDay_employee",
             joinColumns = @JoinColumn(name = "bonus_vacation_day_id"),
             inverseJoinColumns = @JoinColumn(name = "employee_id")
     )
